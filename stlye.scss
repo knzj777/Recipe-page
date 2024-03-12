@@ -1,14 +1,6 @@
 @import "fonts";
 @import "colors";
 
-.attribution {
-  font-size: 11px;
-  text-align: center;
-}
-.attribution a {
-  color: hsl(228, 45%, 44%);
-}
-
 body {
   display: flex;
   flex-direction: column;
@@ -17,6 +9,12 @@ body {
   background-color: $eggshell;
   margin: 100px 0;
   color: $dark-charcoal;
+}
+
+td,
+li,
+p {
+  color: $wenge-brown;
 }
 
 h1,
@@ -39,18 +37,19 @@ figure {
 header {
   background-color: $white;
   border-radius: 20px 20px 0px 0px;
-  max-width: 600px;
+  max-width: 800px;
   padding-bottom: 0;
 
   .header-container {
-    margin: 0 30px 10px 30px;
+    margin: 40px 30px 10px 30px;
+    padding-left: 10px;
   }
 
   h1 {
-    font-size: 2rem;
+    font-size: 2.5rem;
     letter-spacing: 1.5px;
-    margin-bottom: 0;
-    margin-top: 10px;
+    font-weight: 600;
+    margin-bottom: 10px;
   }
 
   p {
@@ -60,11 +59,11 @@ header {
 
 main {
   background-color: $white;
-  max-width: 600px;
+  max-width: 800px;
 }
 
 .main-section-1 {
-  padding-left: 30px;
+  padding: 15px 15px 15px 30px;
   margin: 30px;
   background-color: $rose-white;
   border-radius: 10px;
@@ -88,6 +87,7 @@ main {
 
 .main-section-2 {
   margin-left: 30px;
+  padding-left: 10px;
 
   h2 {
     color: $nutmeg;
@@ -120,6 +120,7 @@ hr {
 
 .main-section-3 {
   margin-left: 30px;
+  padding-left: 10px;
 
   h2 {
     color: $nutmeg;
@@ -129,7 +130,7 @@ hr {
   }
 
   ol {
-    line-height: 1.4rem;
+    line-height: 1.6rem;
     padding-left: 20px;
     padding-right: 3.5rem;
 
@@ -147,14 +148,14 @@ hr {
 
 footer {
   background-color: $white;
-  max-width: 600px;
+  max-width: 800px;
   width: 100%;
   border-radius: 0 0 20px 20px;
 }
 
 .footer-section-1 {
   margin: 0px;
-  padding-left: 30px;
+  padding-left: 40px;
 
   h2 {
     color: $nutmeg;
@@ -193,4 +194,13 @@ footer div {
     margin: 0;
     width: 100vw;
   }
+}
+
+.attribution {
+  display: flex;
+  justify-content: center;
+  font-size: 11px;
+}
+.attribution a {
+  color: $nutmeg;
 }
