@@ -1,0 +1,196 @@
+@import "fonts";
+@import "colors";
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: Outfit-regular;
+  background-color: $eggshell;
+  margin: 100px 0;
+  color: $dark-charcoal;
+}
+
+h1,
+h2,
+h3 {
+  font-family: Youngserif-regular;
+}
+
+figure {
+  padding-top: 20px;
+  padding-bottom: 0;
+
+  .img-1 {
+    border-radius: 3%;
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+
+header {
+  background-color: $white;
+  border-radius: 20px 20px 0px 0px;
+  max-width: 600px;
+  padding-bottom: 0;
+
+  .header-container {
+    margin: 0 30px 10px 30px;
+  }
+
+  h1 {
+    font-size: 2rem;
+    letter-spacing: 1.5px;
+    margin-bottom: 0;
+    margin-top: 10px;
+  }
+
+  p {
+    margin-bottom: 0;
+  }
+}
+
+main {
+  background-color: $white;
+  max-width: 600px;
+}
+
+.main-section-1 {
+  padding-left: 30px;
+  margin: 30px;
+  background-color: $rose-white;
+  border-radius: 10px;
+
+  h2 {
+    color: $dark-raspberry;
+    font-family: Outfit-regular;
+    font-size: 20px;
+  }
+
+  ul {
+    padding-left: 20px;
+    line-height: 2rem;
+
+    ::marker {
+      color: $dark-raspberry;
+      font-size: 75%;
+    }
+  }
+}
+
+.main-section-2 {
+  margin-left: 30px;
+
+  h2 {
+    color: $nutmeg;
+    letter-spacing: 2px;
+    margin: 0;
+  }
+
+  ul {
+    padding-left: 20px;
+    padding-right: 2rem;
+    list-style: square;
+
+    ::marker {
+      color: $nutmeg;
+      font-size: 75%;
+    }
+  }
+
+  li {
+    padding: 5px;
+  }
+}
+
+hr {
+  height: 0.5px;
+  width: 90%;
+  border: none;
+  background-color: $lightgrey;
+}
+
+.main-section-3 {
+  margin-left: 30px;
+
+  h2 {
+    color: $nutmeg;
+    letter-spacing: 2px;
+    padding: 20px 0px 0px 0;
+    margin-top: 0px;
+  }
+
+  ol {
+    line-height: 1.4rem;
+    padding-left: 20px;
+    padding-right: 3.5rem;
+
+    ::marker {
+      color: $nutmeg;
+      font-weight: bold;
+      font-family: Outfit-regular;
+    }
+  }
+
+  li {
+    padding: 0.5rem 0;
+  }
+}
+
+footer {
+  background-color: $white;
+  max-width: 600px;
+  width: 100%;
+  border-radius: 0 0 20px 20px;
+}
+
+.footer-section-1 {
+  margin: 0px;
+  padding-left: 30px;
+
+  h2 {
+    color: $nutmeg;
+  }
+}
+
+table {
+  width: 95%;
+  line-height: 2.5rem;
+  border-collapse: collapse;
+
+  tr {
+    border-bottom: 1px solid $lightgrey;
+  }
+
+  td {
+    padding-left: 30px;
+  }
+
+  td:nth-child(2) {
+    font-weight: bold;
+    color: $nutmeg;
+  }
+}
+
+footer div {
+  padding: 20px;
+}
+
+@media (max-width: 600px) {
+  body,
+  figure,
+  .img-1 {
+    background-color: $white;
+    padding: 0;
+    margin: 0;
+    width: 100vw;
+  }
+}

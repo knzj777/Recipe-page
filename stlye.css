@@ -1,0 +1,191 @@
+@font-face {
+  font-family: Outfit-light;
+  src: url(assets/fonts/outfit/static/Outfit-Light.ttf);
+}
+@font-face {
+  font-family: Outfit-regular;
+  src: url(assets/fonts/outfit/static/Outfit-Regular.ttf);
+}
+@font-face {
+  font-family: Outfit-black;
+  src: url(assets/fonts/outfit/static/Outfit-Black.ttf);
+}
+@font-face {
+  font-family: Youngserif-regular;
+  src: url(assets/fonts/young-serif/YoungSerif-Regular.ttf);
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: Outfit-regular;
+  background-color: hsl(30, 54%, 90%);
+  margin: 100px 0;
+  color: hsl(24, 5%, 18%);
+}
+
+h1,
+h2,
+h3 {
+  font-family: Youngserif-regular;
+}
+
+figure {
+  padding-top: 20px;
+  padding-bottom: 0;
+}
+figure .img-1 {
+  border-radius: 3%;
+  width: 100%;
+  margin: 0 auto;
+}
+
+header {
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 20px 20px 0px 0px;
+  max-width: 600px;
+  padding-bottom: 0;
+}
+header .header-container {
+  margin: 0 30px 10px 30px;
+}
+header h1 {
+  font-size: 2rem;
+  letter-spacing: 1.5px;
+  margin-bottom: 0;
+  margin-top: 10px;
+}
+header p {
+  margin-bottom: 0;
+}
+
+main {
+  background-color: hsl(0, 0%, 100%);
+  max-width: 600px;
+}
+
+.main-section-1 {
+  padding-left: 30px;
+  margin: 30px;
+  background-color: hsl(330, 100%, 98%);
+  border-radius: 10px;
+}
+.main-section-1 h2 {
+  color: hsl(332, 51%, 32%);
+  font-family: Outfit-regular;
+  font-size: 20px;
+}
+.main-section-1 ul {
+  padding-left: 20px;
+  line-height: 2rem;
+}
+.main-section-1 ul ::marker {
+  color: hsl(332, 51%, 32%);
+  font-size: 75%;
+}
+
+.main-section-2 {
+  margin-left: 30px;
+}
+.main-section-2 h2 {
+  color: hsl(14, 45%, 36%);
+  letter-spacing: 2px;
+  margin: 0;
+}
+.main-section-2 ul {
+  padding-left: 20px;
+  padding-right: 2rem;
+  list-style: square;
+}
+.main-section-2 ul ::marker {
+  color: hsl(14, 45%, 36%);
+  font-size: 75%;
+}
+.main-section-2 li {
+  padding: 5px;
+}
+
+hr {
+  height: 0.5px;
+  width: 90%;
+  border: none;
+  background-color: hsl(30, 18%, 87%);
+}
+
+.main-section-3 {
+  margin-left: 30px;
+}
+.main-section-3 h2 {
+  color: hsl(14, 45%, 36%);
+  letter-spacing: 2px;
+  padding: 20px 0px 0px 0;
+  margin-top: 0px;
+}
+.main-section-3 ol {
+  line-height: 1.4rem;
+  padding-left: 20px;
+  padding-right: 3.5rem;
+}
+.main-section-3 ol ::marker {
+  color: hsl(14, 45%, 36%);
+  font-weight: bold;
+  font-family: Outfit-regular;
+}
+.main-section-3 li {
+  padding: 0.5rem 0;
+}
+
+footer {
+  background-color: hsl(0, 0%, 100%);
+  max-width: 600px;
+  width: 100%;
+  border-radius: 0 0 20px 20px;
+}
+
+.footer-section-1 {
+  margin: 0px;
+  padding-left: 30px;
+}
+.footer-section-1 h2 {
+  color: hsl(14, 45%, 36%);
+}
+
+table {
+  width: 95%;
+  line-height: 2.5rem;
+  border-collapse: collapse;
+}
+table tr {
+  border-bottom: 1px solid hsl(30, 18%, 87%);
+}
+table td {
+  padding-left: 30px;
+}
+table td:nth-child(2) {
+  font-weight: bold;
+  color: hsl(14, 45%, 36%);
+}
+
+footer div {
+  padding: 20px;
+}
+
+@media (max-width: 600px) {
+  body,
+  figure,
+  .img-1 {
+    background-color: hsl(0, 0%, 100%);
+    padding: 0;
+    margin: 0;
+    width: 100vw;
+  }
+}/*# sourceMappingURL=stlye.css.map */
